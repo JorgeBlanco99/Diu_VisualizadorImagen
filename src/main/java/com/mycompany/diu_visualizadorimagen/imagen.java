@@ -34,7 +34,7 @@ public class imagen  extends JPanel{
     public imagen () {
         try {
             imagen = ImageIO.read(new URL("https://etcanada.com/wp-content/uploads/2016/09/astley.jpg?quality=80&strip=all&w=720&h=480&crop=1"));
-            logo = ImageIO.read(new URL("https://i.imgur.com/dyJ8Hxe.png "));
+            logo = ImageIO.read(new URL("https://i.imgur.com/uxi7KBj.png"));
             copia = imagen;
             this.setPreferredSize(new Dimension(imagen.getWidth(), imagen.getHeight()));
         } catch (MalformedURLException ex) {

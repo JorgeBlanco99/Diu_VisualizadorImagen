@@ -208,17 +208,17 @@ public class VisualizadorImagen extends javax.swing.JFrame {
 
     private void BiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BiActionPerformed
         // TODO add your handling code here:
-        imagen1.setCordenadas(335,330);
+        imagen1.setCordenadas(550,370);
     }//GEN-LAST:event_BiActionPerformed
 
     private void AdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdActionPerformed
         // TODO add your handling code here:
-                imagen1.setCordenadas(350,0);
+                imagen1.setCordenadas(550,0);
     }//GEN-LAST:event_AdActionPerformed
 
     private void BdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BdActionPerformed
         // TODO add your handling code here:
-                imagen1.setCordenadas(0,330);
+                imagen1.setCordenadas(0,370);
     }//GEN-LAST:event_BdActionPerformed
 
     private void AiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AiActionPerformed

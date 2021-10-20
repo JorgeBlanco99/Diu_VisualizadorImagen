@@ -33,7 +33,7 @@ public class imagen  extends JPanel{
 
     public imagen () {
         try {
-            imagen = ImageIO.read(new URL("https://etcanada.com/wp-content/uploads/2016/09/astley.jpg?quality=80&strip=all&w=720&h=480&crop=1"));
+            imagen = ImageIO.read(new URL("https://jornada.com.bo/wp-content/uploads/2019/12/Los-Simpson.jpg"));
             logo = ImageIO.read(new URL("https://i.imgur.com/uxi7KBj.png"));
             copia = imagen;
             this.setPreferredSize(new Dimension(imagen.getWidth(), imagen.getHeight()));

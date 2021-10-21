@@ -138,7 +138,7 @@ public class VisualizadorImagen extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(157, 157, 157)
                         .addComponent(jLabel3))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                             .addGap(106, 106, 106)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -177,8 +177,10 @@ public class VisualizadorImagen extends javax.swing.JFrame {
                                     .addGap(37, 37, 37)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(Ad)
-                                        .addComponent(Bi)))))))
-                .addGap(51, 66, Short.MAX_VALUE))
+                                        .addComponent(Bi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(67, 67, 67)))
+                            .addGap(64, 64, 64))))
+                .addGap(66, 66, 66))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -191,7 +193,7 @@ public class VisualizadorImagen extends javax.swing.JFrame {
                 .addComponent(jLabel3)
                 .addGap(32, 32, 32)
                 .addComponent(imagen1, javax.swing.GroupLayout.PREFERRED_SIZE, 447, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
+                .addGap(14, 14, 14)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jLabel6))
@@ -212,7 +214,7 @@ public class VisualizadorImagen extends javax.swing.JFrame {
                             .addComponent(azul))))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Bi)
+                    .addComponent(Bi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Bd))
                 .addGap(67, 67, 67))
         );
@@ -271,17 +273,17 @@ public class VisualizadorImagen extends javax.swing.JFrame {
 
     private void BiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BiActionPerformed
         // TODO add your handling code here:
-        imagen1.setCordenadas(550,370);
+        imagen1.setCordenadas(590,350);
     }//GEN-LAST:event_BiActionPerformed
 
     private void AdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdActionPerformed
         // TODO add your handling code here:
-                imagen1.setCordenadas(550,0);
+                imagen1.setCordenadas(590,0);
     }//GEN-LAST:event_AdActionPerformed
 
     private void BdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BdActionPerformed
         // TODO add your handling code here:
-                imagen1.setCordenadas(0,370);
+                imagen1.setCordenadas(0,350);
     }//GEN-LAST:event_BdActionPerformed
 
     private void AiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AiActionPerformed
